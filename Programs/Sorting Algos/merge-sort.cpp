@@ -1,4 +1,5 @@
 // O (n log n) 
+//based on divide and conquer algorithm
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -60,7 +61,7 @@ void mergesort(int arr[], int l, int r)
 int main()
 {
     int arr[] = {7,4,8,9,3,6,1};
-    mergesort(arr, 0, 6);
+    mergesort(arr, 0, 6);       //l = 0, r = 6
 
     for(int i=0; i<7; i++)
         cout<<arr[i]<<" ";
